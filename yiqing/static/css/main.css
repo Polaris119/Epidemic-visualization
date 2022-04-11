@@ -1,0 +1,98 @@
+#title{
+    position: absolute;
+    width: 40%; /*width，height指定自身宽高，top，right指定左上角的位置*/
+    height: 10%;
+    top: 0; /*指定位置顶格*/
+    left: 30%; /*上述表明顶格，据左边30%，自身长度40%，高度10%*/
+    background: #fdfdfd; /*背景色*/
+    color: black; /*字体颜色 */
+    font-size: 35px;
+    /* background-color: chocolate; */
+
+    /*居中*/
+    display: flex;
+    align-items: center;
+    justify-content: center; /* 竖直居中 */
+}
+
+#time{
+    position: absolute; /*绝对定位*/
+    height: 10%;
+    top: 5%;
+    right: 2%;
+    font-size: 20px;
+    color: black;
+}
+
+#l1{
+    position: absolute; /*绝对定位*/
+    width: 30%;
+    height: 45%;
+    top: 10%;
+    left: 0;
+    background: #fdfdfd;
+}
+
+#l2{
+    position: absolute; /*绝对定位*/
+    width: 30%;
+    height: 45%;
+    top: 55%;
+    left: 0;
+    background: #fdfdfd;
+}
+
+#c1{
+    position: absolute; /*绝对定位*/
+    width: 40%;
+    height: 20%;
+    top: 10%;
+    left: 30%;
+    background: #fdfdfd;
+}
+
+.num{
+    width: 25%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+}
+
+.txt{
+    width: 25%;
+    float: left;
+    font-family: "幼圆";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#c2{
+    position: absolute; /*绝对定位*/
+    width: 40%;
+    height: 70%;
+    top: 30%;
+    left: 30%;
+    background:#fdfdfd;
+}
+
+#r1{
+    position: absolute; /*绝对定位*/
+    width: 30%;
+    height: 45%;
+    top: 10%;
+    left: 70%;
+    background: #fdfdfd;
+}
+
+#r2{
+    position: absolute; /*绝对定位*/
+    width: 30%;
+    height: 45%;
+    top: 55%;
+    left: 70%;
+    background: #fdfdfd;
+}
